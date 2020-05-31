@@ -9,7 +9,7 @@ class TreeNode {
     }
 }
 
-class Codec {
+final class Codec {
     func serialize(_ root: TreeNode?) -> String {
         guard root != nil else { return " " }
         var serializedNodeValues: [String] = []
